@@ -3,7 +3,7 @@ repeat wait() until game:IsLoaded()
 
 -- Tạo cửa sổ
 local Window = Fluent:CreateWindow({
-    Title = "Zet:BloxFruits",
+    Title = "Zet:  BloxFruits",
     SubTitle = "Hoàng Dương",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
@@ -14,7 +14,7 @@ local Window = Fluent:CreateWindow({
 
 -- Các Tabs
 local Tabs = {
-    Main0 = Window:AddTab({ Title = "Discord" }),
+    Main0 = Window:AddTab({ Title = "Thông Tin" }),
     Main1 = Window:AddTab({ Title = "BloxFruits" }),
 }
 
